@@ -214,8 +214,8 @@ class AllMilstoneViewState extends State<AllMilstoneView> {
                       },
                     ),
                     ListTile(
-                      leading: const Icon(Icons.info),
-                      title: const Text('About'),
+                      leading: const Icon(Icons.next_plan_outlined),
+                      title: const Text('Future Plans'),
                       onTap: () {
                         Get.to(AboutView());
                       },
@@ -299,8 +299,8 @@ class AllMilstoneViewState extends State<AllMilstoneView> {
               },
             ),
             ListTile(
-              leading: const Icon(Icons.info),
-              title: const Text('About'),
+              leading: const Icon(Icons.next_plan_outlined),
+              title: const Text('Future Plans'),
               onTap: () {
                 Get.to(AboutView());
               },

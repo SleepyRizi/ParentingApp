@@ -67,7 +67,7 @@ class _RegisterationViewState extends State<RegisterationView> {
                         //TODO: Add text fields for email and password
                         TextFormField(
                           style: Theme.of(context).textTheme.bodyText2!.copyWith(
-                                color: Get.isDarkMode ? Colors.white : Colors.white,
+                                color: Get.isDarkMode ? Colors.black : Colors.black,
                               ),
                           validator: (value) {
                             if (value!.isEmpty || value.length < 4) {
@@ -79,11 +79,11 @@ class _RegisterationViewState extends State<RegisterationView> {
                           decoration: InputDecoration(
                             labelText: 'Name',
                             labelStyle: TextStyle(
-                              color: Get.isDarkMode ? Colors.black : Colors.black,
+                              color: Get.isDarkMode ? Colors.white : Colors.black,
                             ),
                             hintText: 'Name',
                             hintStyle: TextStyle(
-                              color: Get.isDarkMode ? Colors.white : Colors.white,
+                              color: Get.isDarkMode ? Colors.white : Colors.black,
                             ),
                             border: OutlineInputBorder(
                                 borderSide: const BorderSide(
@@ -95,7 +95,7 @@ class _RegisterationViewState extends State<RegisterationView> {
                         const SizedBox(height: 30),
                         TextFormField(
                           style: Theme.of(context).textTheme.bodyText2!.copyWith(
-                                color: Get.isDarkMode ? Colors.white : Colors.white,
+                                color: Get.isDarkMode ? Colors.white : Colors.black,
                               ),
                           validator: (value) {
                             if (value!.isEmpty) {
@@ -107,11 +107,11 @@ class _RegisterationViewState extends State<RegisterationView> {
                           decoration: InputDecoration(
                             labelText: 'Email',
                             labelStyle: TextStyle(
-                              color: Get.isDarkMode ? Colors.black : Colors.black,
+                              color: Get.isDarkMode ? Colors.white : Colors.black,
                             ),
                             hintText: 'Email',
                             hintStyle: TextStyle(
-                              color: Get.isDarkMode ? Colors.black : Colors.black,
+                              color: Get.isDarkMode ? Colors.white : Colors.black,
                             ),
                             border: OutlineInputBorder(
                                 borderSide: const BorderSide(
@@ -138,11 +138,11 @@ class _RegisterationViewState extends State<RegisterationView> {
                           decoration: InputDecoration(
                             labelText: 'Password',
                             labelStyle: TextStyle(
-                              color: Get.isDarkMode ? Colors.black : Colors.black,
+                              color: Get.isDarkMode ? Colors.white : Colors.black,
                             ),
                             hintText: 'Password',
                             hintStyle: TextStyle(
-                              color: Get.isDarkMode ? Colors.white : Colors.white,
+                              color: Get.isDarkMode ? Colors.white : Colors.black,
                             ),
                             border: OutlineInputBorder(
                                 borderSide: const BorderSide(
@@ -170,11 +170,11 @@ class _RegisterationViewState extends State<RegisterationView> {
                           decoration: InputDecoration(
                             labelText: 'Confirm Password',
                             labelStyle: TextStyle(
-                              color: Get.isDarkMode ? Colors.black : Colors.black,
+                              color: Get.isDarkMode ? Colors.white : Colors.black,
                             ),
                             hintText: 'Confirm Password',
                             hintStyle: TextStyle(
-                              color: Get.isDarkMode ? Colors.black : Colors.black,
+                              color: Get.isDarkMode ? Colors.white : Colors.black,
                             ),
                             border: OutlineInputBorder(
                                 borderSide: const BorderSide(
